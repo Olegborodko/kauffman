@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'oswald-regular';
+    src: url('font/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: 'oswald-bolt';
+    src: url('font/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: 'oswald-light';
+    src: url('font/Oswald-Light.ttf');
+}
+
+
+body{ color:#000415; background: url(images/bg-pattern.jpg); font-family: oswald-light!important;}
+.bg { background: url(images/bg-pattern.jpg);}
+
+a{color:#2025c0}
+a:hover {text-decoration: none!important;}
+.nav-item a{color:#a2a2a2; font-family: oswald-light; font-size: 1.45em;}
+.selected a{color:#0056b3;}
+.bg-top {position: absolute; left:0; top:0; background-image: url(images/heroimg.png); max-width: 45%; max-height: 912px;  background-size: cover; width: 100%; height: 100%; }
+.section-1 {margin-top:50px; padding:100px 15px 100px 15px!important; }
+.section-1 h1{margin-bottom: 120px;  font-family: oswald-light;}
+.section-1 h1 span {margin-right: 20px;}
+.section-1 .block-body:before {content: " ";width: 140%; margin-left: -40%; margin-top:-20px; border: 2px solid #2025c0; position: absolute; }
+.section-1 .block-body {margin-top: 50px; font-size: 1.3em; text-align: justify; line-height: 2em; font-weight: 300; position: relative}
+
+.quote {position: relative;}
+.quote .block-body {padding:8vw 3vw; font-family: oswald-regular; margin-top:-50px; color: white; font-size: 2vw;background: url(images/quote.png) no-repeat; background-size: contain;}
+.quote .name {font-family: oswald-light;}
+.quote:after {content:" "; position:absolute; width: 262px; height: 210px; bottom: -20%;left: 30%;background: url("images/quote-large.png") no-repeat;}
+
+.profile {margin-top: 50px;}
+.profile .body-title {
+    text-align:center;
+    font-family: oswald-regular;
+    line-height: 1.75em;
+    font-size: 4em;
+    margin-top: -30px;
+    border-bottom: 3px solid #2025c0;
+    color:#2025c0;
+    position: relative}
+.profile .body-image img{max-width: 100%; padding-top: 15px}
+
+.zoom-company {position: relative;  margin-top: 50px;}
+.zoom-title {position: absolute; left:15%; font-family: oswald-bolt; bottom:6%;  font-size: 3em;}
+.zoom-company .zoom-title img { margin: -5px 10px 0 0; max-width: 60px; width: 100%;}
+.zoom-company .company-link {position: absolute; bottom: 0; right: 20px}
+
+.autonomy-company {position: relative; margin-top: 50px;}
+.autonomy-company .zoom-title {left:10%; bottom: 7%}
+.autonomy-company .zoom-title img {max-width: 60px; width: 100%; margin: -5px 0 0 50px; }
+.autonomy-company .company-link {    position: absolute; bottom: 0; left: 20px}
+
+
+.dna-company {position: relative;  margin-top: 50px; }
+.dna-company .zoom-title img {max-width: 40px; margin: -5px 10px 0 0 }
+.dna-company .company-link {    position: absolute; bottom: 0; right: 20px}
+
+.score-section {background: #1B2033; text-align: center; color:white; padding:50px; margin-top: 50px;}
+.score-section .large-text {font-size: 4.5em; font-family: oswald-bolt; font-weight: bold}
+.score-section .small-text {font-size: 1.5em}
+
+.list-defined,
+.list-advisor {margin-top: 100px; position: relative;}
+
+.title-line:before,
+.list-defined:before {content: ""; line-height: 2.5em;  position: absolute; border:1px solid #2025C0; width: 40%;}
+.title-line-right:before,
+.list-advisor:before {content: ""; position: absolute; border:1px solid #2025C0; width: 40%; right: 0}
+.list-advisor .list-advisor-title {text-align: right}
+.list-advisor .list-advisor-title,
+.list-defined .list-defined-title{font-size: 4.75em; color: #2025C0; font-family: oswald-regular;}
+.people {position: relative; margin:0 0 30px 0; }
+.people img {width: 100%;}
+.people .body-info {position: absolute; font-size: 1.2em; font-family: oswald-regular; color:white; width: 80%; bottom: 2.7%; background: #1B2033; padding: 15px 10px}
+.people .position {font-family: oswald-light;margin-top:10px;font-size: 0.7em;}
+.people .firm-logo {position: absolute; display: block; bottom: -1px; right: 15px;}
+.people .firm-logo img {max-width: 75px;}
+.people .back {text-align: justify;}
+.people .back h5 {font-family: oswald-bolt;}
+.idea-to-ico{margin-top: 100px; position: relative;}
+.idea-to-ico h2{ font-size: 4.5em; line-height: 2.5em; color: #2025C0; font-family: oswald-regular}
+.idea-to-ico h2:before {width: 35%;}
+.idea-to-ico .icon-row img {max-width: 70px}
+.idea-to-ico .icon-row div {margin-top: 30px;}
+
+.humanity {margin-top: 100px;}
+.humanity .title {text-align: right; font-size: 4.5em; line-height: 2.5em; font-family: oswald-regular; color: #2025C0; }
+.humanity .image-fellow {text-align: right}
+.humanity .image-fellow img {max-width: 380px; width: 100%}
+.humanity .text-fellow{ margin-top: 30px; line-height: 2.2em; }
+.humanity .text-in-block:before {content: ''; background: white; position: absolute; width: 70px; margin:-50px -70px; height: 100%;}
+.humanity .text-in-block{padding: 50px 50px 50px 0; position: relative; background: white; font-size: 2.5em; font-family: oswald-regular}
+.humanity .link { font-size: 1.75em; margin: 50px 20px; font-family: oswald-light;color:#2025C0; display: -webkit-inline-box; margin-top: 20px; border-bottom: 1px solid #2025C0}
+
+
+.capital {margin-top:100px }
+.capital .title{text-align: left; font-family: oswald-regular; line-height: 3em; font-size: 3.75em; color: #2025C0; }
+.capital .image-capital {text-align: left; background: url(images/capital-image.png) no-repeat; background-position: right; background-size: 50%}
+.capital .image-capital img{width: 70%;}
+.capital .text-capital {line-height: 2em; text-align: justify}
+
+
+.we-are{margin:100px 0; }
+.we-are .body-content{ padding: 100px; background: url(images/image-we-are.png) no-repeat; background-size: 50%;}
+.we-are .title{text-align: left; font-size: 3.5em; line-height: 3em;letter-spacing: 3px; font-family: oswald-regular; color: #2025C0; margin-bottom: 0px}
+.we-are .body-text {padding: 0px 100px; line-height: 2em; text-align: justify;     font-size: 1rem;}
+.we-are .company-link {margin-top: 30px!important;}
+.before-footer {
+    background: #2025C0;
+    background-image: url(images/before-footer-bg.png) ;
+    background-repeat: repeat-x;
+
+    color:white;
+    padding: 0 0 100px 0;
+}
+.before-footer .contact-us-column{ background: white url(images/bg-contact.png) no-repeat; background-size:contain; position:relative; color:#2025C0; text-align: center; padding-bottom: 20px}
+.before-footer .contact-us-column div{position: absolute; bottom: 20px; width: 90%;}
+.before-footer .body-content {padding-top: 200px; text-align: left}
+.before-footer .title-line:before {border: 2px solid white; width: 20%}
+.before-footer .second-row {margin-top: 200px}
+
+footer {
+    padding: 100px 0;
+}
+footer ul:before {content: ""; margin-top: -20px; position: absolute; width: 40%; border:2px solid #2025c0;}
+footer ul { padding-left: 0; }
+footer ul li {list-style: none ;margin-top: 30px;}
+footer .newslleter-input { border:2px solid #2025C0; border-radius: 0!important;}
+footer .text-newsletters {color: #2025C0; margin-bottom: 10px}
+
+.title { line-height: 3em!important;
+    font-size: 3.75em!important;}
+.paragraph-border-left {padding: 10px; border-left:2px solid #2025C0; background: rgba(32,37,192, 0.04   )}
+.small-logo {content: " "; width: 60px; height: 60px; float:left; display: block; background: url(images/small-logo.png) no-repeat;}
+.company-link { border-bottom: 1px solid; font-size: 1.65em; font-family: oswald-light; color:#2025C0; line-height: 1.5em; margin-top: -4%; float: right;  }
+.bg-logo{background: url(images/top-block-bg.png) no-repeat center; background-position: 0 10px; background-size: contain; padding-bottom: 200px;}
+.logo img {max-height: 50px}
+
+
+
+#header.scrolled {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+#header.scrolled.down {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .bg-top {background: none;}
+    .capital .image-capital img{
+        width: 100%;
+    }
+    .we-are .body-content{
+        padding: 0;
+        background-size: 100%;
+    }
+    .we-are .body-text {
+        padding: 20px 0;
+    }
+    .title{font-size: 2em!important;}
+    .company-title {font-size: 1.2em;}
+    .company-link{font-size: 0.8em;}
+}
+.bgClip {
+    background:url(images/number-pattern.png);
+    background-repeat:repeat-x;
+    background-size: contain;
+    background-position:0 0;
+    font-size:200px;
+    text-transform:uppercase;
+    text-align:center;
+    font-family:'oswald-bolt';
+    color:transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin:0;}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="#design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_02--KauffmanFellows--about" transform="translate(-620.000000, -5940.000000)">
+            <g id="Pledge" transform="translate(260.000000, 5200.000000)">
+                <g id="paper" transform="translate(120.000000, 560.000000)">
+                    <g id="logo" transform="translate(240.000000, 180.000000)">
+                        <path d="M16.7777778,15.3333333 L1,27.1666667 L1,38 L16.7777778,26.1666667 L16.7777778,15.3333333 Z" id="Path-2" stroke="#1086C2" stroke-width="2" transform="translate(8.888889, 26.666667) scale(1, -1) translate(-8.888889, -26.666667) "></path>
+                        <polygon id="Path-2" fill="#1086C2" points="20 0 20 13.3333333 0 26.6666667 0 13.3333333"></polygon>
+                        <path d="M39,2 L23.2222222,13.8333333 L23.2222222,24.6666667 L39,12.8333333 L39,2 Z" id="Path-2" stroke="#1086C2" stroke-width="2" transform="translate(31.111111, 13.333333) scale(-1, 1) translate(-31.111111, -13.333333) "></path>
+                        <polygon id="Path-2" fill="#1086C2" transform="translate(30.000000, 26.666667) scale(-1, -1) translate(-30.000000, -26.666667) " points="40 13.3333333 40 26.6666667 20 40 20 26.6666667"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

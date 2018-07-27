@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="30px" viewBox="0 0 42 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>BR</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="42" height="30"></rect>
+        <circle id="path-3" cx="7" cy="7" r="7"></circle>
+    </defs>
+    <g id="#design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_02--KauffmanFellows--about" transform="translate(-1340.000000, -4640.000000)">
+            <g id="Map" transform="translate(16.000000, 3680.000000)">
+                <g id="flag" transform="translate(244.000000, 960.000000)">
+                    <g id="Group" transform="translate(1080.000000, 0.000000)">
+                        <g id="BR">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <rect id="Mask-Copy" fill="#05AB41" mask="url(#mask-2)" x="0" y="0" width="42" height="30"></rect>
+                            <path d="M4.56562042,15.3659897 C4.25323689,15.1638592 4.25350694,14.8359661 4.56562042,14.6340103 L20.4343796,4.36598969 C20.7467631,4.16385916 21.2535069,4.1640339 21.5656204,4.36598969 L37.4343796,14.6340103 C37.7467631,14.8361408 37.7464931,15.1640339 37.4343796,15.3659897 L21.5656204,25.6340103 C21.2532369,25.8361408 20.7464931,25.8359661 20.4343796,25.6340103 L4.56562042,15.3659897 Z" id="Rectangle-60" fill="#FDD216" mask="url(#mask-2)"></path>
+                            <g id="Oval-2" mask="url(#mask-2)">
+                                <g transform="translate(14.000000, 8.000000)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" stroke="none" fill="#053087" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    <path d="M-1,6 C5.68434189e-14,5.00000004 3.61523438,5.46777352 7,6.00000001 C10.3847656,6.5322265 14.0121833,8.01218348 15,9" id="Line" stroke="#FFFFFF" stroke-width="1.33333333" fill="none" stroke-linecap="square" mask="url(#mask-4)" transform="translate(7.000000, 7.206297) rotate(6.000000) translate(-7.000000, -7.206297) "></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

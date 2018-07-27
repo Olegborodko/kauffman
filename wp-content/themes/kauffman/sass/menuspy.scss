@@ -1,0 +1,82 @@
+.lavalamp-menu {
+  transform: rotate(90deg);
+  position: fixed;
+  top: 920px;
+  right: 77px;
+  transform-origin: 100% 100%;
+  font-family: $font-regular;
+  background:#edeaea;
+  z-index: 10000;
+}
+.lavalamp-menu nav, .lavalamp-menu li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline
+}
+.lavalamp-menu li {
+  margin-right: 120px;
+  /* opacity: 0.3; */
+  color: #101113;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 70px;
+  padding-bottom: 4px;
+}
+
+.lavalamp-menu nav ul li.active a{
+  color: #1086c2;
+}
+
+.lavalamp-menu nav {
+  position: relative
+}
+.lavalamp-menu .lavalamp {
+  position:absolute;
+  bottom:0;
+  height:2px;
+  background-color: #1086c2;
+  -webkit-transition:1s;
+  transition:1s;
+}
+.lavalamp-menu a {
+  display: block;
+  line-height: 70px;
+  color: #6a6968;
+  text-decoration: none;
+  padding: 0;
+}
+.lavalamp-menu a:hover {
+
+}
+
+.lavalamp{
+  width: 2px;
+  background-color: #1086c2;
+}
+
+.apply_section_right_line{
+  width: 2px;
+  height: 100%;
+  position: fixed;
+  background-color: #afafb2;
+  opacity: 0.2;
+  top: 0;
+  right: 75px;
+  z-index: 10000;
+}
+
+@media only screen and (max-width: 1100px) {
+  .lavalamp-menu,
+  .apply_section_right_line{
+    display:none;
+  }
+}
+
+.lavalamp-menu li.selected{
+  border-bottom:2px solid #1086c2;
+}
+
+.lavalamp-menu li.selected a{
+  color: #1086c2;
+}

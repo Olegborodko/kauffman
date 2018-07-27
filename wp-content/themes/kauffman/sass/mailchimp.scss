@@ -1,0 +1,126 @@
+.mc4wp-error{
+  color:red;
+}
+
+.mc4wp-alert{
+  font-family:$font-regular;
+}
+
+.mc4wp-success{
+  color:green;
+}
+
+.site-footer__mail_chimp{
+  span.EMAIL-label {
+    display: none;
+  }
+}
+
+footer {
+  .site-footer__mail_chimp {
+    margin-right: 0;
+    margin-bottom: 70px;
+    margin-top: 10px;
+
+    .site-footer__email {
+      padding: 6px!important;
+      font-size: 16px!important;
+      width: 100%!important;
+      max-width: 400px!important;
+      letter-spacing: 1px!important;
+      border-top: 0!important;
+      border-left: 0!important;
+      border-right: 0!important;
+      background-color: transparent!important;
+      outline: 0!important;
+      line-height: 40px!important;
+      border-bottom: 2px solid #101113!important;
+      font-family: $font-regular!important;
+      -webkit-appearance: none!important;
+      margin: 0 auto;
+    }
+
+    .site-footer__email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #101113;
+      opacity: 1;
+    }
+    .site-footer__email::-moz-placeholder { /* Firefox 19+ */
+      color: #101113;
+      opacity: 1;
+    }
+    .site-footer__email:-ms-input-placeholder { /* IE 10+ */
+      color: #101113;
+      opacity: 1;
+    }
+    .site-footer__email:-moz-placeholder { /* Firefox 18- */
+      color: #101113;
+      opacity: 1;
+    }
+
+    .site-footer__submit {
+      background: none;
+      text-align: center;
+      display: inline-block;
+      padding: 20px 10px 20px;
+      font-size: 16px;
+      color: #1086C2;
+      letter-spacing: 0;
+      border: 2px solid #1086C2;
+      cursor: pointer;
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+
+  .site-footer__submit_block {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* -- */
+
+.newsletter_press_releases {
+  .newsletter_press_releases__button {
+    display: none!important;
+  }
+
+  span.EMAIL-label{
+    display:none!important;
+  }
+
+  .newsletter_press_releases__email{
+    padding: 0!important;
+    font-size: 18px!important;
+    width: 100%!important;
+    max-width: 482px!important;
+    letter-spacing: 0!important;
+    border-top: 0!important;
+    border-left: 0!important;
+    border-right: 0 !important;
+    background-color: transparent!important;
+    outline: 0!important;
+    line-height: 80px!important;
+    border-bottom: 2px solid #101113!important;
+    color:#101113!important;
+    font-family: $font-regular!important;
+    -webkit-appearance: none!important;
+  }
+
+  .newsletter_press_releases__email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #101113;
+    opacity: 1;
+  }
+  .newsletter_press_releases__email::-moz-placeholder { /* Firefox 19+ */
+    color: #101113;
+    opacity: 1;
+  }
+  .newsletter_press_releases__email:-ms-input-placeholder { /* IE 10+ */
+    color: #101113;
+    opacity: 1;
+  }
+  .newsletter_press_releases__email:-moz-placeholder { /* Firefox 18- */
+    color: #101113;
+    opacity: 1;
+  }
+}

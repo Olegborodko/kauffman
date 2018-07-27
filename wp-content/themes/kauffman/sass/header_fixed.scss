@@ -1,0 +1,283 @@
+.header {
+  will-change: transform;
+  transition: height 0.5s linear;
+  -moz-transition: height 0.5s linear; /* Firefox 4 */
+  -webkit-transition: height 0.5s linear; /* Safari and Chrome */
+  -o-transition: height 0.5s linear; /* Opera */
+  -ms-transition: height 0.5s linear; /* Explorer 10 */
+  height:160px;
+  overflow: hidden;
+
+  .sf-menu li.current-menu-item a{
+    color:#1086c2;
+  }
+
+  .sf-menu li.current-menu-item.active-white a{
+    color:#ffffff;
+  }
+
+  .site-logo {
+    float: left;
+    width: 30%;
+    margin-top: 72px;
+    .custom-logo{
+      width:297px;
+    }
+  }
+
+  .navbar {
+    float: left;
+    width: 70%;
+    position:relative;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .sf-menu {
+    float: right;
+  }
+
+  .sf-menu li {
+    float: left;
+  }
+
+  .sf-menu li a {
+    text-decoration: none;
+    color: #101113;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: $font-regular;
+    display: inline-block;
+    padding: 99px 31px 41px;
+    height: 100%;
+  }
+
+  .sf-menu li a:hover {
+    background-color: #1086c2;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .sf-menu li:last-child {
+    background-color: #1086c2;
+  }
+
+  .navbar:before {
+    display: block;
+    content: '';
+    width: 125px;
+    height: 80px;
+    background: url(../img/24.png);
+    position: absolute;
+    top: 15px;
+    right: -88px;
+  }
+
+  .mobile-menu .fa{
+    font-size:1.5em;
+    color:#1086c2;
+  }
+
+  .class_is_open{
+    color: #1086c2;
+    font-size: 12px;
+    font-weight: 500;
+    clear: both;
+    text-align: right;
+    font-family: $font-regular;
+    padding-right: 15px;
+    padding-top: 13px;
+  }
+}
+
+/* ---- */
+
+.fixed_top_menu{
+  position: relative;
+}
+
+.fixed_top_menu #navbar #main-menu li{
+  height: 160px;
+}
+
+.before_fixed_header{
+  position: fixed;
+  width: 100%;
+  background: #edeaea;
+  top: 0;
+  z-index: 10000;
+  padding-top: 0;
+}
+
+.fixed_active.before_fixed_header {
+  background: #edeaea;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+  padding-top: 0;
+  border-bottom: 1px solid #d1d1d2;
+
+  .fixed_top_menu #navbar #main-menu a {
+    padding: 50px 31px 41px;
+  }
+
+  .fixed_top_menu #navbar #main-menu li{
+    height: initial;
+  }
+
+  .fixed_top_menu .site-logo {
+    margin-top: 22px;
+  }
+
+  .class_is_open{
+    display:none;
+  }
+
+  .navbar:before{
+    display:none;
+  }
+}
+
+.instead_menu{
+  /* height:186px;
+  display:none; */
+}
+/* ---- */
+
+@media only screen and (max-width: 1670px){
+  .header .navbar{
+    width:63%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #js_menu_manipulation{
+    height:initial;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .fixed_top_menu #navbar #main-menu li{
+    height: initial;
+  }
+
+  .fixed_active.before_fixed_header .fixed_top_menu #navbar #main-menu a{
+    padding: 12px;
+  }
+
+  .before_fixed_header{
+    padding-top:1px
+  }
+
+  .header {
+    margin-bottom: 0;
+    text-align: center;
+
+    .mobile-menu{
+      cursor: pointer;
+      display: block;
+      width: 2.875em;
+      height: 2.625em;
+      color: #fff;
+      background: #23292e;
+      line-height: 3.1em;
+      text-align: center;
+      margin: 0 auto 14px;
+    }
+
+    .sf-menu{
+      display:none;
+      margin:0 auto;
+      float:none;
+      text-align: center;
+    }
+
+    .site-logo {
+      float: none;
+      width: 100%;
+      margin-top:20px;
+      text-align:center;
+    }
+
+    .navbar{
+      float:none;
+      margin:0 auto;
+      width:100%;
+      margin-top:10px;
+    }
+
+    .sf-menu li a{
+      padding: 12px;
+      text-transform: uppercase
+    }
+
+    .sf-menu li{
+      float:none;
+      border-top: 1px solid #d4d4d4;
+    }
+
+    .sf-menu li:last-child {
+      background-color: initial;
+    }
+
+    .navbar:before{
+      display:none;
+    }
+
+    .class_is_open{
+      display: none;
+    }
+
+    /* --menu mobile fix-- */
+
+    .site-logo{
+      width: 80%;
+    }
+
+    .mobile-menu{
+      position: relative;
+      float: right;
+      background: none;
+      color: #000000;
+      margin-top: -63px;
+    }
+
+    .sf-menu{
+      display: none;
+      width: 100%;
+      clear: both;
+    }
+
+    .sf-menu li a{
+      display: block;
+    }
+
+    .main-navigation{
+      position: relative;
+      top: 0;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .header .mobile-menu {
+    margin-top: -62px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header .mobile-menu {
+    margin-top: -60px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header .mobile-menu {
+    margin-top: -57px;
+  }
+}

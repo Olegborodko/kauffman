@@ -1,0 +1,79 @@
+.type_post_custom{
+  .center_container {
+    max-width: initial;
+    margin: initial;
+    padding-left: initial;
+    padding-right: initial;
+    display: initial;
+    position: initial;
+  }
+
+  .type_post__entry-content{
+    margin-top:initial;
+  }
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+  .mobile_control {
+    margin-top: 50px!important;
+    .g_mobile_margin_50 {
+      margin-top: 50px!important;
+    }
+
+    .g_mobile_margin_100 {
+      margin-top: 80px!important;
+    }
+
+    .g_mobile_padding_left_20 {
+      padding-left:20px;
+    }
+
+    .g_mobile_middle {
+      .g_mobile_padding_left_20 {
+        padding-left:20px;
+      }
+
+      .g_mobile_margin_100 {
+        margin-top: 80px!important;
+      }
+    }
+  }
+
+  .g_mobile_margin_100{
+    margin-top:80px!important;
+  }
+
+  .g_mobile_margin_bottom_40{
+    margin-bottom: 40px!important;
+  }
+
+  .g_mobile_display_none_without_i{
+    display: none;
+  }
+
+  .g_mobile_align_center{
+    text-align: center!important;
+  }
+
+  .g_mobile_margin_top_0{
+    margin-top:0!important;
+  }
+
+  .g_mobile_margin_top_30{
+    margin-top:30px!important;
+  }
+
+  .g_mobile_margin_top_50{
+    margin-top:50px!important;
+  }
+
+  .g_mobile_margin_top_minus_30{
+    margin-top:-30px!important;
+  }
+
+  .g_mobile_margin_bottom_0{
+    margin-bottom:0!important;
+  }
+}

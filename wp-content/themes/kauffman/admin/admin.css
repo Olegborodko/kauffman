@@ -1,0 +1,52 @@
+.fw-option-type-page-builder .builder-item-type .inner:hover img{
+  width: 50px!important;
+  height: 50px!important;
+  top:10px!important;
+  left:25px!important;
+}
+
+.fw-option-type-builder .builder-item-type{
+  width: 100px!important;
+  height: 100px!important;
+}
+
+.fw-option-type-builder .builder-item-type img {
+  width: 100%!important;
+  position: absolute!important;
+  top: 0!important;
+  left: 0!important;
+  height: 100%!important;
+}
+
+.fw-option-type-page-builder .builder-item-type p{
+  position: absolute!important;
+  left: 0!important;
+  right: 0!important;
+  bottom: 0!important;
+  line-height: 30px!important;
+  margin: 0!important;
+  background: black!important;
+  padding: 0 3px!important;
+}
+
+.fw-option-type-page-builder .builder-item-type p span{
+  display: inline-block!important;
+  vertical-align: middle!important;
+  line-height: 1.2!important;
+  font-size: 12px!important;
+  color: #ffffff!important;
+}
+
+.pb-item-type-simple{
+  padding: 5px!important;
+}
+
+.pb-item-type-simple > img{
+  width: 40px!important;
+  height: 40px!important;
+}
+
+.qtip.qtip-fw{
+  border: 5px solid #333333!important;
+  background-color: #333333!important;
+}

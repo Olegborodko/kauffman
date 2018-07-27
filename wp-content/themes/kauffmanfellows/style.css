@@ -1,0 +1,233 @@
+/**
+* Theme Name: Kauffmanfellows
+* Template: entrepreneur-lite
+* Author: Stasevi4
+* Author URI: https://stasevi4.com/
+* Description:  A child theme of Entrepreneur Lite
+* Version: 1.0.0
+* License: GNU General Public License v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Tags: one-column,right-sidebar,custom-colors,custom-menu,featured-images,theme-options,translation-ready
+*/
+
+
+html{
+    margin-top:0!important;
+}
+body {
+    background-image: url(assets/images/bg.jpg);
+    font-family: Helvetica, Arial, sans-serif!important;
+}
+a {color:#edeaea; text-decoration: none}
+.site-header .site-logo {margin-top: 50px}
+
+/** Top Menu **/
+/** Side Menu **/
+#sidemenu{
+    display: inline-block;
+    font-size: .85em;
+    z-index: 999;
+    border-bottom:1px solid white;
+    padding: .25em;
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 100vh;
+    transform-origin:top left;
+    transform: translateY(0)  rotate(90deg);
+}
+
+#sidemenu ul {  counter-reset: menu-side-block; }
+#sidemenu ul li{
+    float:left;margin-right:0;display:block;
+}
+#sidemenu ul li:before{
+    contain: " ";
+    border:1px solid #000;
+
+}
+#sidemenu ul li a{
+    color:#1086c2;
+}
+#sidemenu ul li a:before{counter-increment: menu-side-block;content: counter(menu-side-block) ". ";}
+
+/** Footer **/
+.site-footer{
+    background: transparent;
+    font-size:0.875em;
+}
+.widget_nav_menu {border-top:3px solid #1086c2; padding:50px 0}
+.widget_nav_menu .widget-title {color:#1086c2; font-size: 0.875em}
+.widget_nav_menu ul {padding:0}
+.widget_nav_menu ul li {margin: 40px 0; list-style: none;}
+.widget_nav_menu ul li a {text-decoration: none;}
+
+.footer-copyright {position: absolute; bottom:20%; right: 0; font-size:0.875em}
+.footer-copyright .footer-logo {text-align: right;}
+
+.footer-social  {list-style: none; margin: 0; padding: 0; position: absolute; right:0;}
+.footer-social li {float: left; margin: 40px 0 0 50px!important ;}
+.footer-social li a { width: 20px; height: 20px; display: block}
+.footer-social li.facebook a{ background: no-repeat url(assets/images/facebook.png) }
+.footer-social li.linkedin a{ background: no-repeat url(assets/images/linkedin.png) }
+.footer-social li.twitter a{ background: no-repeat url(assets/images/twitter.png) }
+
+
+/** Home Page **/
+.home .main-container {
+    min-height: 800px;
+    background: no-repeat url(assets/images/large-bg-logo.png);
+    background-size: 650px;
+    background-position: right top;
+}
+/** About Page **/
+.page-id-24 .main-container .container:first-child {
+    background: no-repeat url(assets/images/year.png);
+    background-size: 500px;
+    background-position: right  60px;
+}
+
+.block-with-border-top:before {content:' '; margin: -30px 0 0 15px; display:block; width: 30%; position:absolute; border-bottom: 4px solid #1086c2}
+.block-with-border-top { font-size:1.75em; margin-top: 40px; padding: 20px 0}
+
+
+.home-page-second-row {
+    margin-top: 25vh;
+    min-height: 100vh;
+}
+
+/**** BLock Style **/
+.white-bg{ background:white;}
+
+.block-with-blue-bg { padding: 50px!important; color:white;  background: #1086c2}
+.block-with-blue-bg h4 { text-transform: none;}
+.block-with-blue-bg .block-subtitle {font-size:.7em}
+.block-with-blue-bg .block-body {margin-top: 70px;}
+.block-with-blue-bg .block-text-background {position: absolute;left: 0; top:0;font-size: 7em;color: rgba(211, 223, 227, 0.1);padding: 0;margin: -40px 0 0 -10px;}
+
+.block-image {padding-top:15vh; text-align: right;}
+.block-image img {max-width: 400px; width: 100%;}
+.block-blue-border:before {
+    content: " ";
+    position: absolute;
+    width: 20%;
+    border-bottom: 4px solid #1086c2;
+    top: 0;
+    left:30px;}
+.block-blue-border h4 {color:#1086c2; margin-bottom:40px;}
+.block-move-up{  margin-top: -150px;}
+.margin-top15 {    margin-top: 15%;}
+
+
+.about-white-block {padding: 100px!important;}
+.about-white-block h3{color:#1086c2!important; margin-bottom: 50px}
+.block-header-line {overflow: hidden; height: 50px; position: relative; margin-bottom: 50px}
+.block-header-line:before{
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url(assets/images/footer-logo.png) no-repeat;
+}
+.block-header-line:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 60px;
+    border-bottom: 4px solid #1086c2;
+
+}
+
+.home-slider { margin-top: -100px; max-width: 50%;}
+.slide-text-right-bottom {border-bottom: 2px solid #1086c2; padding-bottom:4px!important; font-family: Helvetica!important;}
+
+
+.black-box {background: #000; color:white; padding: 100px 50px;}
+.black-box .body-content {font-size: 0.8em; margin-top: 40px;}
+
+.block-map {margin-top: 100px;}
+
+#vmap {height: 700px;}
+.jqvmap-label {color:#ffff; position: absolute; background:#1086c2; padding: 10px 20px; margin-top: -20px}
+
+/***
+Team grid
+ */
+.grid-view{
+    width: 100%;
+}
+.grid-team{position: relative; margin:15px 0;}
+.grid-team .team-name{
+    position: absolute;
+    bottom:20%;
+    background: #1086c2;
+    color:white;
+    padding: 5px 20px;
+}
+
+.grid-view .team-category h3{
+    margin-top: 100px;
+}
+.grid-view .team-category h3:before{
+    content: " ";
+    width: 120px;
+    margin-top: -20px;
+    position: absolute;
+    border-bottom: 4px black solid;
+}
+
+/**
+
+ */
+.element-item {
+    width: 24%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .home-slider, .home .block-image-2, .block-move-up {
+        margin-top: 40px;
+        max-width: 100%;
+    }
+    #vmap {height: 40vh;}
+    .block-blue-border:before{ display: none}
+}
+
+@media only screen and (min-width: 768px) {
+    #navbar{margin:0; padding:0}
+    .sf-menu>li{padding:80px 20px 20px 20px;}
+    .sf-menu>li>a {text-decoration: none; text-transform: none}
+
+    .sf-menu>li:last-child::before{
+        width:125px;
+        height:80px;
+        margin-left:20px ;
+        margin-top:-80px;
+        background-image:url(assets/images/23.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        content:"";
+        position: absolute;
+    }
+    .sf-menu:last-child::after{
+        font-size: 0.7em;
+        width: 100px;
+        height: 80px;
+        content: "class 23 opens!";
+        position: absolute;
+        color: #1086c2;
+        margin: 170px 0 0 -79px;}
+
+    .site-header .sf-menu>li:last-child {background-color: #1086c2; border-bottom:3px solid #1086c2}
+    .site-header .sf-menu>li:last-child a{color:white!important;}
+
+    #site-navigation .sf-menu>li.current-menu-item >a {color: #1086c2}
+
+    .sf-menu>li.menu-item-object-custom.current-menu-item.current>a,
+    .sf-menu>li.current_page_item>a,
+    .sf-menu>li.current-menu-item>a,
+    .sf-menu>li:hover>a,
+    .sf-menu>li.menu-item-object-custom.current-menu-item:hover>a,
+    .sf-menu>li.current_page_parent>a {text-decoration: none }
+}

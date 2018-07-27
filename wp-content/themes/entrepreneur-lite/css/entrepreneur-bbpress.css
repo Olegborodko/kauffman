@@ -1,0 +1,87 @@
+#bbpress-forums .bbp-forums-list li {
+  font-size: 0.875em;
+}
+
+div.bbp-breadcrumb, div.bbp-topic-tags,
+div.bbp-template-notice p,
+#bbpress-forums .bbp-forum-info .bbp-forum-content, #bbpress-forums p.bbp-topic-meta,
+#bbpress-forums, #bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+  font-size: 1em;
+}
+
+div.bbp-breadcrumb, .bbp-search-form {
+  margin: 0 0 1.5em;
+}
+
+#bbpress-forums li.bbp-header {
+  background: #7b7f82;
+  font-size: 1.250em;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 0.800em;
+  border-top: 0;
+}
+
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
+  border-top: 1px solid #d4d4d4;
+  padding: 1em;
+  background: transparent;
+}
+
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+  border: 0px solid;
+}
+
+#bbpress-forums li.bbp-footer {
+  background: transparent;
+  border-top: 1px solid #d4d4d4;
+  padding: 1em;
+}
+
+#buddypress table.notification-settings td:first-child,
+#buddypress table.notification-settings th.icon {
+  display: table-cell;
+}
+
+#subscription-toggle {
+  float: right;
+  margin: 1.500em 0;
+}
+
+li.bbp-header div.bbp-reply-content span#subscription-toggle {
+  margin: 0;
+}
+
+.bbp-pagination-links a, .bbp-pagination-links span.current {
+  display: inline-block;
+  padding: 0.615em 1.231em;
+  margin: 0 0.308em 0.615em 0;
+  font-size: 0.813em;
+  border: 2px solid;
+  text-decoration: none;
+}
+
+.bbp-pagination-links a:hover, .bbp-pagination-links span.current {
+  color: #ffffff;
+  background: #3cc9c1;
+  border: 2px solid #3cc9c1;
+}
+
+.bbp-pagination {
+  padding: 2.375em 2.375em 1.938em;
+  overflow: hidden;
+  border: 1px solid #d4d4d4;
+  margin: 4.000em 0;
+  text-transform: uppercase;
+}
+
+.bbp-breadcrumb + .bbp-pagination {
+  margin: 0 0 3em 0;
+}
+
+@media (max-width: 767px) {
+  .bbp-pagination {
+    margin: 0 0 3.000em 0;
+    padding: 1.375em 1.375em 0.938em;
+  }
+}

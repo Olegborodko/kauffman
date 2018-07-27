@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>JQVMap - World Map</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+    <link href="../dist/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://ec2-52-90-205-250.compute-1.amazonaws.com/wp-content/themes/kauffmanfellows/assets/lib/jqvmap/dist/jquery.vmap.js"></script>
+    <script type="text/javascript" src="http://ec2-52-90-205-250.compute-1.amazonaws.com/wp-content/themes/kauffmanfellows/assets/lib/jqvmap/dist/maps/jquery.vmap.world.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://ec2-52-90-205-250.compute-1.amazonaws.com/wp-content/themes/kauffmanfellows/assets/lib/jqvmap/jquery.vmap.sampledata.js"></script>
+    
+    <script>
+      jQuery(document).ready(function () {
+        jQuery('#vmap').vectorMap({
+          map: 'world_en',
+          backgroundColor: '',
+          color: '#ffffff',
+          hoverOpacity: 0.7,
+          selectedColor: '',
+          enableZoom: false,
+          showTooltip: true,
+          scaleColors: ['#C8EEFF', '#006491'],
+          values: sample_data,
+          normalizeFunction: 'polynomial',
+            onLabelShow: function(event, label, code)
+            {
+                if (code == 'ca')
+                {
+                    // Hide the label
+                    event.preventDefault();
+                }
+                else if (code == 'ru')
+                {
+                    // Plain TEXT labels
+                    label.text(label[0].innerHTML + " " + sample_data[code]);
+
+                }
+
+            }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div style="display: none">
+    <img id="pin_for_ru" src="https://www.fromrussia.com/media/catalog/product/cache/1/small_image/400x/9df78eab33525d08d6e5fb8d27136e95/1/6/167597_1.jpg" />
+    </div>
+    <div id="vmap" style="width: 100%; height:800px;"></div>
+  </body>
+</html>

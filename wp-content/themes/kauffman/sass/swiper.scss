@@ -1,0 +1,127 @@
+.swiper-container {
+  .swiper-pagination {
+    position: relative;
+    bottom: 0!important;
+    margin-top: 20px;
+  }
+
+  .review-item__img-wrapper img{
+    width:100%;
+  }
+
+  .swiper-slide__block_left{
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+
+  .swiper-slide__review-item_left{
+    padding-left: 30px;
+    padding-right: 0;
+  }
+
+  .swiper-slide__white-block_left{
+    width:100%;
+    max-width:270px;
+    left: -30px;
+  }
+
+  .swiper-slide__review-item__title_left{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family:$font-floda-bold;
+  }
+
+  .review-item__dscr.swiper-slide-pref{
+    margin-bottom:0
+  }
+
+  .review-item__dscr.swiper-slide-pref span{
+    font-family: $font-regular;
+    font-size: 32px;
+  }
+
+  .swiper-slide__link_div_left{
+    text-align: left;
+    min-width: 170px;
+    display: inline-block;
+    border-bottom: 1px solid #1086C2;
+    padding-bottom: 10px;
+  }
+
+  .swiper-slide__link{
+    font-size: 16px;
+    color: #1086C2;
+    font-family: $font-regular;
+  }
+
+  .swiper-slide__block_link_left {
+    position: relative;
+    width: 100%;
+    text-align: right;
+  }
+
+  /* -- */
+
+  .review-item-block.swiper-slide__right{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+
+  .review-item.swiper-slide__right{
+    padding-left: 30px;
+    margin-left:0;
+    padding-right: 0;
+  }
+
+  .review-item__white-block.swiper-slide__right{
+    width:100%;
+    max-width:270px;
+    left: initial;
+    right: -30px;
+  }
+
+  .review-item__title.swiper-slide__right{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family:$font-floda-bold;
+    width: 100%;
+    text-align: right;
+  }
+
+  .review-item__dscr.swiper-slide__right{
+    margin-bottom:0;
+    width:100%;
+    text-align: right;
+  }
+
+  .review-item__dscr.swiper-slide__right span{
+    font-family: $font-regular;
+    font-size: 32px;
+  }
+
+  .swiper-slide__link_div_right{
+    text-align: left;
+    min-width: 170px;
+    display: inline-block;
+    border-bottom: 1px solid #1086C2;
+    padding-bottom: 10px;
+  }
+
+  .swiper_response_lg_50_xs_100{
+    width:50%;
+    float:left;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .swiper-container {
+    .swiper_response_lg_50_xs_100{
+      float:none;
+      width: 94%;
+      margin: 0 auto;
+    }
+  }
+}

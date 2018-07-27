@@ -1,0 +1,100 @@
+#html1{
+  font-family: $font-regular;
+
+  li{
+    font-size:19px;
+    //
+    //a{
+    //  font-size:17px;
+    //}
+  }
+
+  .materic{
+    display:inline-block!important;
+    margin-right:10px!important;
+    vertical-align:top!important;
+    margin-bottom:60px!important;
+    font-size:19px!important;
+  }
+
+  .materic > a{
+    font-size:21px!important;
+  }
+
+  .jstree-leaf a{
+    font-size:17px!important;
+    color:#1086c2;
+  }
+
+  .jstree-ocl{
+    width:24px!important;
+  }
+
+  .jstree-themeicon{
+    width:0!important;
+  }
+
+  .jstree-node{
+    margin-left:8px!important;
+  }
+}
+
+#search_tree_q{
+  padding: 6px 6px 6px 30px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  letter-spacing: 1px;
+  border-top: 0;
+  border-left: 0;
+  background-color: transparent;
+  outline: 0;
+  line-height: 40px;
+  border-right:0;
+  border-bottom: 2px solid #101113;
+  margin-bottom:20px;
+  -webkit-appearance: none;
+}
+
+#form_search_tree button{
+  background: 0 0;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 7px;
+  font-size: 16px;
+  color: #1086C2;
+  letter-spacing: 0;
+  border: 2px solid #1086C2;
+  cursor: pointer;
+  max-width: 200px;
+  width: 100%;
+  margin-right: 40px;
+}
+
+#form_search_tree:before{
+  content: '\f002';
+  display: block;
+  width: 20px;
+  height: 30px;
+  font-family: FontAwesome;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #html1{
+    li{
+      white-space: initial;
+      width:100%;
+      margin-left: 0!important;
+    }
+
+    a.jstree-anchor{
+      display: inline-block;
+      white-space: initial;
+      width: 90%;
+      height: auto!important;
+    }
+  }
+}

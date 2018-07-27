@@ -1,0 +1,97 @@
+.type_post{
+  .type_post__entry-header{
+    margin-top:100px;
+  }
+
+  .type_post__entry-meta{
+    font-size: 18px;
+    font-family: $font-regular;
+  }
+
+  .type_post__entry-content{
+    font-size:18px;
+    margin-top:50px;
+    line-height:24px;
+    font-family: $font-regular;
+  }
+}
+
+.posts{
+  margin-top:50px;
+  margin-bottom: 100px;
+
+  .review-item-block{
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
+  .review-item--left{
+    padding-left: 30px;
+    padding-right: 0;
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .review-item__white-block{
+    width:100%;
+    max-width:270px
+  }
+
+  .review-item__dscr span{
+    font-family: $font-regular;
+    font-size: 14px;
+    color: #878889;
+  }
+}
+
+.tags {
+  margin-top: 80px;
+
+  .posts.tags__block {
+    margin-top: 0;
+  }
+
+  .tags__review.review-item-block {
+    margin: 20px 0 0 20px;
+  }
+}
+
+.journal_posts{
+  margin-top: 150px;
+  p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 36px;
+    font-family: $font-regular;
+  }
+
+  h1{
+    color: #101113;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 500;
+    font-family: $font-medium;
+  }
+
+  h2{
+    color: #101113;
+    line-height: 24px;
+    font-family: $font-medium;
+    font-size: 24px;
+    margin-bottom: 36px;
+    margin-top: 72px;
+    font-weight: 500;
+  }
+
+  h3{
+    color: #101113;
+    line-height: 20px;
+    font-family: $font-medium;
+    font-size: 20px;
+    margin-bottom: 26px;
+    margin-top: 50px;
+    font-weight: 500;
+  }
+}

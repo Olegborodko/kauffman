@@ -1,0 +1,103 @@
+.form_custom_wrapper{
+  font-family:$font-regular;
+  max-width: 800px;
+  margin:0 auto;
+
+  .nf-form-fields-required{
+    display:none;
+  }
+
+  .label-left .nf-field-label{
+    width:28%;
+    text-align: left;
+    font-size: 18px;
+    padding-right:0;
+    font-weight: normal!important;
+    font-style: normal!important;
+  }
+
+  .label-left .nf-field-label label{
+    font-weight: normal!important;
+    font-style: normal!important;
+  }
+
+  .label-left .nf-field-element{
+    width: 70%;
+    font-size: 18px;
+    text-align:left;
+  }
+
+  .label-left .nf-field-element input{
+    padding:6px;
+  }
+
+  .nf-field-description p{
+    width:94%;
+    text-align:left;
+  }
+
+  .nf-field-element textarea{
+    padding:6px;
+  }
+
+  .label-left .nf-field-description {
+    margin-left: 28%;
+  }
+
+  .label-left .nf-after-field{ /* error */
+    margin-left: 28%;
+  }
+
+  .nf-error-field-errors{
+    margin-left: 28%;
+  }
+
+
+  .nf-field-element input[type=button] {
+    background: 0 0;
+    text-align: center;
+    display: inline-block;
+    padding: 16px 10px;
+    font-size: 16px;
+    color: #1086C2;
+    letter-spacing: 0;
+    border: 2px solid #1086C2;
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .nf-field-element input[type=button]:hover{
+    background: #1086C2!important;
+    color:#ffffff!important;
+  }
+
+  .nf-response-msg{
+    color:green;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .form_custom_wrapper {
+    .label-left .nf-field-label{
+      width:100%;
+    }
+
+    .label-left .nf-field-element{
+      width: 100%;
+      margin-top:10px;
+    }
+
+    .label-left .nf-field-description {
+      margin-left: initial;
+    }
+
+    .label-left .nf-after-field{ /* error */
+      margin-left: initial;
+    }
+
+    .nf-error-field-errors{
+      margin-left: initial;
+    }
+  }
+}

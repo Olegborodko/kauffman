@@ -1,0 +1,983 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-11-27 16:34+0200\n"
+"PO-Revision-Date: 2016-05-25 16:51+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "404"
+msgstr ""
+
+#: 404.php:15
+msgid "Oops! That page can&#39;t be found."
+msgstr ""
+
+#: 404.php:16
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:328
+#: classes/theme/class-theme-wizard.php:82
+msgid "Install Plugins"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:386
+#: classes/theme/class-tgm-plugin-activation.php:827
+#: classes/theme/class-tgm-plugin-activation.php:2533
+#: classes/theme/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:387
+#: classes/theme/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:388
+#: classes/theme/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:934
+#: classes/theme/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3509
+#: classes/theme/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3509
+#: classes/theme/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: classes/theme/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:50
+msgid "Theme Wizard"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:62
+msgid "Start"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:67
+#: classes/theme/class-theme-wizard.php:300
+msgid "Front Page Setup"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:72
+#: classes/theme/class-theme-wizard.php:233
+msgid "Customizer"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:77
+msgid "Plugins"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:87
+msgid "Ready"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:128
+msgid "Theme Quick Guided Tour"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:184
+msgid "Welcome to the Entrepreneur Theme!"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:189
+msgid ""
+"Thank you for choosing Entrepreneur theme. This quick guided tour will show "
+"you how to:"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:192
+msgid "easily customize the theme in a few steps;"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:193
+msgid "change colors, texts and images;"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:195
+msgid "start a business website and build pages visually."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:198
+msgid "If you don&rsquo;t want to go through the wizard, you can"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:200
+msgid "skip and return to the WordPress dashboard."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:201
+msgid "This Wizard is always available under Appearance > Theme Wizard menu."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:209
+msgid "Let's Go!"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:227
+#: classes/theme/class-theme-wizard.php:230
+#: classes/theme/class-theme-wizard.php:278
+#: classes/theme/class-theme-wizard.php:281
+#: classes/theme/class-theme-wizard.php:298
+#: classes/theme/class-theme-wizard.php:382
+#: classes/theme/class-theme-wizard.php:545
+#: classes/theme/class-theme-wizard.php:599
+msgid "Continue"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:238
+msgid ""
+"One of the main tools of this theme is WordPress Customizer. Navigate to "
+"<strong>Appearance > Customize</strong> to change logo, website title, "
+"contact information, colors, background image, menus and so on. Once you are "
+"done with the changes click &rdquo;Save&rdquo; button  to display  updates "
+"on the live site."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:243
+msgid "1. Site Identity"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:251
+msgid ""
+"The Site Identity section in customizer allows you to change the site title, "
+"description, and control whether or not you want to display them in the "
+"header."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:256
+msgid "2. Theme Colors"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:264
+msgid ""
+"In this section you can choose between 4 predefined color schemes, modify "
+"header text color, color of the text content and change accent color for "
+"buttons."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:286
+#: classes/theme/class-theme-wizard.php:386
+#: classes/theme/class-theme-wizard.php:490
+#: classes/theme/class-theme-wizard.php:603
+msgid "Exit"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:307
+msgid ""
+"A huge feature of this theme is completely customizable Front Page. Front "
+"Page is the main page of your website that includes all content blocks you "
+"may need to build website. Features, Call to action, Portfolio, Contact "
+"form, Google Maps and many other blocks are available for you from the box. "
+"How to setup your Front Page:"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:312
+msgid "1. Create Front Page"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:321
+msgid "1. Follow this link to "
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:323
+msgid "Create New Page"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:324
+msgid "2. Name it \"Home\" or \"Front Page\""
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:326
+msgid "3. Choose \"Front Page\" template"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:327
+msgid "4. Press Publish button"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:329
+#: classes/theme/class-theme-wizard.php:353
+msgid "For more information, please view"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:331
+#: classes/theme/class-theme-wizard.php:355
+msgid "documentation"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:336
+msgid "2. Setup Front Page"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:346
+msgid "1. Navigate to "
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:348
+msgid "Settings -> Reading"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:349
+msgid ""
+"2. In Settings -> Reading, set \"Front page displays\" to \"A static page\""
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:350
+msgid ""
+"2. In Settings -> Reading, set \"Front page\" to \"Home\" or \"Front Page\" "
+"you've created in first step"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:351
+#: classes/theme/class-theme-wizard.php:371
+msgid "3. Scroll down and Save changes"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:360
+msgid "3. Setup Posts Page (Blog)"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:369
+msgid "1. Create new page and name it \"Blog\""
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:370
+msgid "2. In Settings -> Reading, set \"Posts page\" to \"Blog\""
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:396
+msgid "You are Ready!"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:397
+msgid "Thank you for choosing Proift theme."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:401
+msgid "Customize this theme"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:403
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:430
+#: classes/theme/class-theme-wizard.php:485 inc/theme/init.php:520
+msgid "Skip"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:433
+msgid "This theme recommends the following free plugins:"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:442
+#: classes/theme/class-theme-wizard.php:451
+#: classes/theme/class-theme-wizard.php:562
+#: classes/theme/class-theme-wizard.php:568
+msgid "Entrepreneur Theme Engine"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:443
+msgid "Adds Front Page Sections to this theme."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:452
+#: classes/theme/class-theme-wizard.php:471
+msgid "Activate this plugin."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:462
+#: classes/theme/class-theme-wizard.php:470
+#: classes/theme/class-theme-wizard.php:581
+#: classes/theme/class-theme-wizard.php:587
+msgid "MotoPress Content Editor Lite"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:463
+msgid ""
+"Enhances the standard WordPress editor and enables to build websites "
+"visually. It's complete solution for building responsive pages without "
+"coding and simply by dragging and dropping content elements."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:547
+msgid "Installing the plugins (this may take awhile)"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:555
+msgid "<h4>Entrepreneur Theme Engine</h4>"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:563
+#: classes/theme/class-theme-wizard.php:569
+#: classes/theme/class-theme-wizard.php:582
+#: classes/theme/class-theme-wizard.php:588
+#, php-format
+msgid "Activating %s plugin..."
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:574
+msgid "<h4>MotoPress Content Editor Lite</h4>"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:624
+msgid "plugin is not activated"
+msgstr ""
+
+#: classes/theme/class-theme-wizard.php:626
+msgid "plugin is activated"
+msgstr ""
+
+#: comments.php:23
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:23
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:23
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:41
+msgid "previous"
+msgstr ""
+
+#: comments.php:42
+msgid "next"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:59
+msgid "Name"
+msgstr ""
+
+#: comments.php:63
+msgid "Email"
+msgstr ""
+
+#: comments.php:66
+msgid "Website"
+msgstr ""
+
+#: comments.php:72
+msgid "Comment"
+msgstr ""
+
+#: content-none.php:14 sections/content-lastnews.php:121
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content.php:26 inc/theme/init.php:373 inc/theme/theme-functions.php:370
+msgid "read more"
+msgstr ""
+
+#: footer.php:20
+msgid "&copy; Copyright"
+msgstr ""
+
+#: footer.php:29
+msgid "&#8226; Designed by"
+msgstr ""
+
+#: footer.php:29
+msgid "https://motopress.com/"
+msgstr ""
+
+#: footer.php:29
+msgid "Premium WordPress Plugins and Themes"
+msgstr ""
+
+#: footer.php:29
+msgid "MotoPress"
+msgstr ""
+
+#: footer.php:30
+msgid "&#8226; Proudly Powered by "
+msgstr ""
+
+#: footer.php:30
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:30
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:30
+msgid "WordPress"
+msgstr ""
+
+#: inc/admin/customize.php:58
+msgid "General"
+msgstr ""
+
+#: inc/admin/customize.php:81
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/customize.php:93
+msgid "Accent Color"
+msgstr ""
+
+#: inc/admin/customize.php:104
+msgid "Posts Settings"
+msgstr ""
+
+#: inc/admin/customize.php:123
+msgid "Show Meta"
+msgstr ""
+
+#: inc/admin/customize.php:142
+msgid "Show Categories"
+msgstr ""
+
+#: inc/admin/customize.php:161
+msgid "Show Tags"
+msgstr ""
+
+#: inc/admin/customize.php:174
+msgid "First Section"
+msgstr ""
+
+#: inc/admin/customize.php:177
+msgid ""
+"<i>Fill in this section by adding widgets to \"Customize > Widgets > First "
+"section\"</i><hr/>"
+msgstr ""
+
+#: inc/admin/customize.php:193 inc/admin/customize.php:269
+#: inc/admin/customize.php:392
+msgid "Hide this section"
+msgstr ""
+
+#: inc/admin/customize.php:218 inc/admin/customize.php:486
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/customize.php:238 inc/admin/customize.php:361
+#: inc/admin/customize.php:465
+msgid "Section position"
+msgstr ""
+
+#: inc/admin/customize.php:249
+msgid "News Section"
+msgstr ""
+
+#: inc/admin/customize.php:252
+msgid "<i>Automatically filled by your latest posts.</i><hr/>"
+msgstr ""
+
+#: inc/admin/customize.php:281 sections/content-lastnews.php:20
+msgid "Tips & News"
+msgstr ""
+
+#: inc/admin/customize.php:289 inc/admin/customize.php:412
+msgid "Title"
+msgstr ""
+
+#: inc/admin/customize.php:300 sections/content-lastnews.php:32
+msgid "Updates from the blog"
+msgstr ""
+
+#: inc/admin/customize.php:308
+msgid "Sub Title"
+msgstr ""
+
+#: inc/admin/customize.php:318
+msgid "Read all news"
+msgstr ""
+
+#: inc/admin/customize.php:326 inc/admin/customize.php:430
+msgid "Button label"
+msgstr ""
+
+#: inc/admin/customize.php:344 inc/admin/customize.php:448
+msgid "Button url"
+msgstr ""
+
+#: inc/admin/customize.php:373
+msgid "Call to Action Section"
+msgstr ""
+
+#: inc/admin/customize.php:404 sections/content-call_to_action.php:1
+msgid "Book your visit online and save 10&#37;"
+msgstr ""
+
+#: inc/admin/customize.php:422 sections/content-call_to_action.php:1
+msgid "book your visit"
+msgstr ""
+
+#: inc/admin/customize.php:578
+msgid "Default"
+msgstr ""
+
+#: inc/motopress/motopress-init.php:40 inc/motopress/motopress-init.php:119
+#: inc/motopress/motopress-init.php:128 inc/motopress/motopress-init.php:140
+#: inc/motopress/motopress-init.php:187 inc/motopress/motopress-init.php:216
+msgid "Theme White"
+msgstr ""
+
+#: inc/motopress/motopress-init.php:44 inc/motopress/motopress-init.php:59
+#: inc/motopress/motopress-init.php:71 inc/motopress/motopress-init.php:108
+#: inc/motopress/motopress-init.php:118 inc/motopress/motopress-init.php:124
+#: inc/motopress/motopress-init.php:144 inc/motopress/motopress-init.php:163
+#: inc/motopress/motopress-init.php:165 inc/motopress/motopress-init.php:171
+#: inc/motopress/motopress-init.php:181 inc/motopress/motopress-init.php:183
+#: inc/motopress/motopress-init.php:198 inc/motopress/motopress-init.php:220
+#: inc/motopress/motopress-init.php:232
+msgid "Theme Brand"
+msgstr ""
+
+#: inc/motopress/motopress-init.php:75
+msgid "Light"
+msgstr ""
+
+#: inc/theme/init.php:147
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/theme/init.php:280
+msgid "Main Widget Area"
+msgstr ""
+
+#: inc/theme/init.php:282
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: inc/theme/init.php:290
+msgid "Shop Widget Area"
+msgstr ""
+
+#: inc/theme/init.php:292
+msgid "Appears on shop pages in the sidebar."
+msgstr ""
+
+#: inc/theme/init.php:300
+msgid "First Section Widget Area"
+msgstr ""
+
+#: inc/theme/init.php:302 inc/theme/init.php:312
+msgid "Appears on front page."
+msgstr ""
+
+#: inc/theme/init.php:310
+msgid "Services & Prices Widget Area"
+msgstr ""
+
+#: inc/theme/init.php:320
+msgid "Footer Left"
+msgstr ""
+
+#: inc/theme/init.php:322 inc/theme/init.php:332 inc/theme/init.php:342
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: inc/theme/init.php:330
+msgid "Footer Center"
+msgstr ""
+
+#: inc/theme/init.php:340
+msgid "Footer Right"
+msgstr ""
+
+#: inc/theme/init.php:511
+msgid ""
+"You&#8217;ve installed Entrepreneur theme. Click &#34;Run Theme Wizard&#34; "
+"to view a quick guided tour of theme functionality and complete the "
+"installation."
+msgstr ""
+
+#: inc/theme/init.php:515
+msgid "Run Theme Wizard"
+msgstr ""
+
+#: inc/theme/theme-functions.php:103
+msgid "Posted in"
+msgstr ""
+
+#: inc/theme/theme-functions.php:111 inc/theme/theme-functions.php:140
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: inc/theme/theme-functions.php:132
+msgid "Tagged with"
+msgstr ""
+
+#: inc/theme/theme-functions.php:162
+msgid "Posted by"
+msgstr ""
+
+#: inc/theme/theme-functions.php:168
+msgid "Comments"
+msgstr ""
+
+#: inc/theme/theme-functions.php:173
+msgid "Edit"
+msgstr ""
+
+#: inc/theme/theme-functions.php:212
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/theme/theme-functions.php:226
+#, php-format
+msgid "<i class=\"fa fa-calendar\"></i><span>%1$s</span>"
+msgstr ""
+
+#: inc/theme/theme-functions.php:228
+msgid "(Edit)"
+msgstr ""
+
+#: inc/woocommerce/woo-init.php:43
+msgid "Home"
+msgstr ""
+
+#: sections/content-lastnews.php:13 sections/content-lastnews.php:47
+#: sections/content-lastnews.php:48
+msgid "all news"
+msgstr ""

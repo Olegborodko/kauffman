@@ -1,0 +1,41 @@
+header {
+  .navbar_small {
+    float: left;
+    width: 70%;
+    position:relative;
+  }
+
+  .navbar_small:before {
+    display: block;
+    content: '';
+    width: 125px;
+    height: 80px;
+    background: url(../img/23.png);
+    position: absolute;
+    top: 15px;
+    right: -88px;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  header {
+    .navbar_small {
+      width: 62%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    .navbar_small{
+      float:none;
+      margin:0 auto;
+      width:100%;
+      margin-top:10px;
+    }
+
+    .navbar_small:before{
+      display:none;
+    }
+  }
+}
